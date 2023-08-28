@@ -1,0 +1,58 @@
+{
+  "name": "remote-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "browser-env": "^3.3.0",
+    "buffer-image-size": "^0.6.4",
+    "ejs": "^3.1.9",
+    "electron": "^26.0.0",
+    "electron-webrtc": "^0.3.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http-errors": "~2.0.0",
+    "jimp": "^0.22.10",
+    "lodash": "^4.17.21",
+    "morgan": "~1.10.0",
+    "node-pre-gyp": "^0.17.0",
+    "node-webrtc": "^0.0.0",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "robotjs": "github:octalmage/robotjs",
+    "screenshot-desktop": "^1.15.0",
+    "simple-peer": "^9.11.1",
+    "socket.io": "4.7.2",
+    "socket.io-client": "4.7.2",
+    "socket.io-stream": "^0.9.1",
+    "wrtc": "^0.4.7"
+  },
+  "scripts": {
+    "start": "npm run build && node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "electron-rebuild": "^3.2.9"
+  },
+  "author": "",
+  "license": "ISC"
+}
